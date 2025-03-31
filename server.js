@@ -12,7 +12,7 @@ const limiter = require("./middleware/limiter")
 dotenv.config();
 const app = express();
 app.use(cors({ 
-  origin: "http://localhost:3000", // Change to your frontend URL
+  origin: "https://coupon-distributor-eta.vercel.app/", // Change to your frontend URL
   credentials: true 
 }));
 app.use(express.json());
